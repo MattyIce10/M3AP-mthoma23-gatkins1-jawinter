@@ -24,6 +24,11 @@ void calcBubbleStats(vector<Airport>(airports)){
     vector<int> bubbleSize;
     vector<int> bubbleReads;
     vector<int> bubbleWrites;
+    //declare and open files
+    ofstream MyFile1;
+    MyFile1.open("data/bubbleReads.txt");
+    ofstream MyFile2;
+    MyFile2.open("data/bubbleWrites.txt");
     //write to loop to create various vector sizes
     for(int i = 100; i < 1100; i+=100){
         //add size to vector
@@ -48,28 +53,26 @@ void calcBubbleStats(vector<Airport>(airports)){
     cout << "Sizes: ";
     for(int i = 0; i < bubbleSize.size(); i++) {
         cout << bubbleSize[i] << " ";
-
     }
     cout << endl;
     cout << "Reads: ";
     for(int i = 0; i < bubbleReads.size(); i++) {
         cout << bubbleReads[i] << " ";
         //write read values to a file
-        ofstream MyFile1("data/bubbleReads.txt");
-        MyFile1 << bubbleReads[i] << endl;
-        MyFile1.close();
+        MyFile1 << bubbleReads[i] << "\n";
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < bubbleWrites.size(); i++) {
         cout << bubbleWrites[i] << " ";
         //write write values to a file
-        ofstream MyFile2("data/bubbleWrites.txt");
-        MyFile2 << bubbleWrites[i] << endl;
-        MyFile2.close();
+        MyFile2 << bubbleWrites[i] << "\n";
     }
     cout << endl;
     cout << endl;
+    //close files
+    MyFile1.close();
+    MyFile2.close();
 }
 
 //pass airport vector into function
@@ -78,6 +81,11 @@ void calcInsertionStats(vector<Airport>(airports)){
     vector<int> insertionSize;
     vector<int> insertionReads;
     vector<int> insertionWrites;
+    //declare and open files
+    ofstream MyFile1;
+    MyFile1.open("data/insertionReads.txt");
+    ofstream MyFile2;
+    MyFile2.open("data/insertionWrites.txt");
     //write to loop to create various vector sizes
     for(int i = 100; i < 1100; i+=100){
         //add size to vector
@@ -108,21 +116,20 @@ void calcInsertionStats(vector<Airport>(airports)){
     for(int i = 0; i < insertionReads.size(); i++) {
         cout << insertionReads[i] << " ";
         //write read values to a file
-        ofstream MyFile1("data/insertionReads.txt");
-        MyFile1 << insertionReads[i] << endl;
-        MyFile1.close();
+        MyFile1 << insertionReads[i] << "\n";
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < insertionWrites.size(); i++) {
         cout << insertionWrites[i] << " ";
         //write write values to a file
-        ofstream MyFile2("data/insertionWrites.txt");
-        MyFile2 << insertionWrites[i] << endl;
-        MyFile2.close();
+        MyFile2 << insertionWrites[i] << "\n";
     }
     cout << endl;
     cout << endl;
+    //close files
+    MyFile1.close();
+    MyFile2.close();
 }
 
 //pass airport vector into function
@@ -131,6 +138,11 @@ void calcMergeStats(vector<Airport>(airports)){
     vector<int> mergeSize;
     vector<int> mergeReads;
     vector<int> mergeWrites;
+    //declare and open files
+    ofstream MyFile1;
+    MyFile1.open("data/mergeReads.txt");
+    ofstream MyFile2;
+    MyFile2.open("data/mergeWrites.txt");
     //write to loop to create various vector sizes
     for(int i = 100; i < 1100; i+=100){
         //add size to vector
@@ -161,21 +173,20 @@ void calcMergeStats(vector<Airport>(airports)){
     for(int i = 0; i < mergeReads.size(); i++) {
         cout << mergeReads[i] << " ";
         //write read values to a file
-        ofstream MyFile1("data/mergeReads.txt");
-        MyFile1 << mergeReads[i] << endl;
-        MyFile1.close();
+        MyFile1 << mergeReads[i] << "\n";
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < mergeWrites.size(); i++) {
         cout << mergeWrites[i] << " ";
         //write write values to a file
-        ofstream MyFile2("data/mergeWrites.txt");
-        MyFile2 << mergeWrites[i] << endl;
-        MyFile2.close();
+        MyFile2 << mergeWrites[i] << "\n";
     }
     cout << endl;
     cout << endl;
+    //close files
+    MyFile1.close();
+    MyFile2.close();
 }
 
 //pass airport vector into function
@@ -184,6 +195,11 @@ void calcHeapStats(vector<Airport>(airports)){
     vector<int> heapSize;
     vector<int> heapReads;
     vector<int> heapWrites;
+    //declare and open files
+    ofstream MyFile1;
+    MyFile1.open("data/heapReads.txt");
+    ofstream MyFile2;
+    MyFile2.open("data/heapWrites.txt");
     //write to loop to create various vector sizes
     for(int i = 100; i < 1100; i+=100){
         //add size to vector
@@ -214,21 +230,20 @@ void calcHeapStats(vector<Airport>(airports)){
     for(int i = 0; i < heapReads.size(); i++) {
         cout << heapReads[i] << " ";
         //write read values to a file
-        ofstream MyFile1("data/heapReads.txt");
-        MyFile1 << heapReads[i] << endl;
-        MyFile1.close();
+        MyFile1 << heapReads[i] << "\n";
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < heapWrites.size(); i++) {
         cout << heapWrites[i] << " ";
         //write write values to a file
-        ofstream MyFile2("data/heapWrites.txt");
-        MyFile2 << heapWrites[i] << endl;
-        MyFile2.close();
+        MyFile2 << heapWrites[i] << "\n";
     }
     cout << endl;
     cout << endl;
+    //close files
+    MyFile1.close();
+    MyFile2.close();
 }
 
 //pass airport vector into function
@@ -237,6 +252,11 @@ void calcSelectionStats(vector<Airport>(airports)){
     vector<int> selectionSize;
     vector<int> selectionReads;
     vector<int> selectionWrites;
+    //declare and open files
+    ofstream MyFile1;
+    MyFile1.open("data/selectionReads.txt");
+    ofstream MyFile2;
+    MyFile2.open("data/selectionWrites.txt");
     //write to loop to create various vector sizes
     for(int i = 100; i < 1100; i+=100){
         //add size to vector
@@ -267,21 +287,20 @@ void calcSelectionStats(vector<Airport>(airports)){
     for(int i = 0; i < selectionReads.size(); i++) {
         cout << selectionReads[i] << " ";
         //write read values to a file
-        ofstream MyFile1("data/selectionReads.txt");
-        MyFile1 << selectionReads[i] << endl;
-        MyFile1.close();
+        MyFile1 << selectionReads[i] << "\n";
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < selectionWrites.size(); i++) {
         cout << selectionWrites[i] << " ";
         //write write values to a file
-        ofstream MyFile2("data/selectionWrites.txt");
-        MyFile2 << selectionWrites[i] << endl;
-        MyFile2.close();
+        MyFile2 << selectionWrites[i] << "\n";
     }
     cout << endl;
     cout << endl;
+    //close files
+    MyFile1.close();
+    MyFile2.close();
 }
 
 //pass airport vector into function
@@ -290,6 +309,11 @@ void calcQuickStats(vector<Airport>(airports)){
     vector<int> quickSize;
     vector<int> quickReads;
     vector<int> quickWrites;
+    //declare and open files
+    ofstream MyFile1;
+    MyFile1.open("data/quickReads.txt");
+    ofstream MyFile2;
+    MyFile2.open("data/quickWrites.txt");
     //write to loop to create various vector sizes
     for(int i = 100; i < 1100; i+=100){
         //add size to vector
@@ -320,21 +344,20 @@ void calcQuickStats(vector<Airport>(airports)){
     for(int i = 0; i < quickReads.size(); i++) {
         cout << quickReads[i] << " ";
         //write read values to a file
-        ofstream MyFile1("data/quickReads.txt");
-        MyFile1 << quickReads[i] << endl;
-        MyFile1.close();
+        MyFile1 << quickReads[i] << "\n";
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < quickWrites.size(); i++) {
         cout << quickWrites[i] << " ";
         //write write values to a file
-        ofstream MyFile2("data/quickWrites.txt");
-        MyFile2 << quickWrites[i] << endl;
-        MyFile2.close();
+        MyFile2 << quickWrites[i] << "\n";
     }
     cout << endl;
     cout << endl;
+    //close files
+    MyFile1.close();
+    MyFile2.close();
 }
 
 

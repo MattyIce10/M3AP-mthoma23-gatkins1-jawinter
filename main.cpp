@@ -18,6 +18,8 @@ int main() {
     calcSelectionStats(airports);
     calcQuickStats(airports);
 
+    //Make CLI call to run Python* program
+
 
     return 0;
 }
