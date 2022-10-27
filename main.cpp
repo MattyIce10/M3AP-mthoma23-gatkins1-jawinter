@@ -3,6 +3,8 @@
 #include "Airport.h"
 #include "algStats.h"
 
+const string python = "python";
+
 int main() {
     cout << endl;
 
@@ -19,6 +21,12 @@ int main() {
     calcQuickStats(airports);
 
     //Make CLI call to run Python* program
+    string command;
+
+    command = python + " ../Graphing.py";
+    system(command.c_str());
+
+
 
 
     return 0;
