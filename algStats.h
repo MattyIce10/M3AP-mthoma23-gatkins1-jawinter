@@ -2,7 +2,10 @@
 #define M3AP_MTHOMA23_GATKINS1_JAWINTER_ALGSTATS_H
 
 #include <iostream>
+#include <fstream>
 #include <vector>
+#include "Airport.h"
+
 #include "printVec.h"
 #include "heapSort.h"
 #include "bubbleSort.h"
@@ -11,8 +14,8 @@
 #include "mergeSort.h"
 #include "quickSort.h"
 #include "radixSort.h"
-#include "Airport.h"
 
+using namespace std;
 
 
 //pass airport vector into function
@@ -45,16 +48,25 @@ void calcBubbleStats(vector<Airport>(airports)){
     cout << "Sizes: ";
     for(int i = 0; i < bubbleSize.size(); i++) {
         cout << bubbleSize[i] << " ";
+
     }
     cout << endl;
     cout << "Reads: ";
     for(int i = 0; i < bubbleReads.size(); i++) {
         cout << bubbleReads[i] << " ";
+        //write read values to a file
+        ofstream MyFile1("data/bubbleReads.txt");
+        MyFile1 << bubbleReads[i] << endl;
+        MyFile1.close();
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < bubbleWrites.size(); i++) {
         cout << bubbleWrites[i] << " ";
+        //write write values to a file
+        ofstream MyFile2("data/bubbleWrites.txt");
+        MyFile2 << bubbleWrites[i] << endl;
+        MyFile2.close();
     }
     cout << endl;
     cout << endl;
@@ -95,11 +107,19 @@ void calcInsertionStats(vector<Airport>(airports)){
     cout << "Reads: ";
     for(int i = 0; i < insertionReads.size(); i++) {
         cout << insertionReads[i] << " ";
+        //write read values to a file
+        ofstream MyFile1("data/insertionReads.txt");
+        MyFile1 << insertionReads[i] << endl;
+        MyFile1.close();
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < insertionWrites.size(); i++) {
         cout << insertionWrites[i] << " ";
+        //write write values to a file
+        ofstream MyFile2("data/insertionWrites.txt");
+        MyFile2 << insertionWrites[i] << endl;
+        MyFile2.close();
     }
     cout << endl;
     cout << endl;
@@ -140,11 +160,19 @@ void calcMergeStats(vector<Airport>(airports)){
     cout << "Reads: ";
     for(int i = 0; i < mergeReads.size(); i++) {
         cout << mergeReads[i] << " ";
+        //write read values to a file
+        ofstream MyFile1("data/mergeReads.txt");
+        MyFile1 << mergeReads[i] << endl;
+        MyFile1.close();
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < mergeWrites.size(); i++) {
         cout << mergeWrites[i] << " ";
+        //write write values to a file
+        ofstream MyFile2("data/mergeWrites.txt");
+        MyFile2 << mergeWrites[i] << endl;
+        MyFile2.close();
     }
     cout << endl;
     cout << endl;
@@ -185,11 +213,19 @@ void calcHeapStats(vector<Airport>(airports)){
     cout << "Reads: ";
     for(int i = 0; i < heapReads.size(); i++) {
         cout << heapReads[i] << " ";
+        //write read values to a file
+        ofstream MyFile1("data/heapReads.txt");
+        MyFile1 << heapReads[i] << endl;
+        MyFile1.close();
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < heapWrites.size(); i++) {
         cout << heapWrites[i] << " ";
+        //write write values to a file
+        ofstream MyFile2("data/heapWrites.txt");
+        MyFile2 << heapWrites[i] << endl;
+        MyFile2.close();
     }
     cout << endl;
     cout << endl;
@@ -230,11 +266,19 @@ void calcSelectionStats(vector<Airport>(airports)){
     cout << "Reads: ";
     for(int i = 0; i < selectionReads.size(); i++) {
         cout << selectionReads[i] << " ";
+        //write read values to a file
+        ofstream MyFile1("data/selectionReads.txt");
+        MyFile1 << selectionReads[i] << endl;
+        MyFile1.close();
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < selectionWrites.size(); i++) {
         cout << selectionWrites[i] << " ";
+        //write write values to a file
+        ofstream MyFile2("data/selectionWrites.txt");
+        MyFile2 << selectionWrites[i] << endl;
+        MyFile2.close();
     }
     cout << endl;
     cout << endl;
@@ -275,11 +319,19 @@ void calcQuickStats(vector<Airport>(airports)){
     cout << "Reads: ";
     for(int i = 0; i < quickReads.size(); i++) {
         cout << quickReads[i] << " ";
+        //write read values to a file
+        ofstream MyFile1("data/quickReads.txt");
+        MyFile1 << quickReads[i] << endl;
+        MyFile1.close();
     }
     cout << endl;
     cout << "Writes: ";
     for(int i = 0; i < quickWrites.size(); i++) {
         cout << quickWrites[i] << " ";
+        //write write values to a file
+        ofstream MyFile2("data/quickWrites.txt");
+        MyFile2 << quickWrites[i] << endl;
+        MyFile2.close();
     }
     cout << endl;
     cout << endl;
