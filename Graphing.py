@@ -22,6 +22,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/bubbleWrites.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -37,6 +38,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/insertionReads.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -52,6 +54,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/insertionWrites.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -67,6 +70,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/mergeReads.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -82,6 +86,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/mergeWrites.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -97,6 +102,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/heapReads.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -112,6 +118,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/heapWrites.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -127,6 +134,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/selectionReads.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -142,6 +150,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/selectionWrites.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -157,6 +166,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/quickReads.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
@@ -172,6 +182,7 @@ for size in range(100, 1001, 100):
 		plt.show()
 
 for size in range(100, 1001, 100):
+	times = []
 	with open('data/quickWrites.txt') as file:
 		times = [int(next(file)) for x in range(size)]
 		sizes = range(100, 1001, 100)
