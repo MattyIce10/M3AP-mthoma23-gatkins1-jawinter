@@ -15,4 +15,4 @@ add_executable(M3AP_mthoma23_gatkins1_jawinter
         printVec.h
         quickSort.h
         radixSort.h
-        selectionSort.h)
+        selectionSort.h algStats.h)
