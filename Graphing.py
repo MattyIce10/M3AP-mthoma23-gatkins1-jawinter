@@ -60,7 +60,7 @@ plt.title('Insertion Sort Read Data')
 plt.xlabel('Number of Objects to Sort')
 plt.xticks(sizes)
 plt.ylabel('Number of Reads')
-plt.savefig('../images/Insertion ReadTimes.png')
+plt.savefig('../images/InsertionReadTimes.png')
 plt.show()
 
 for size in range(100, 1001, 100):

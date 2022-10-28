@@ -4,26 +4,27 @@
 
 ##Results:
 
-###Bubble Write Times Graph:
-
-###Number of Bubble Reads Graph:
-
-###Heap Read Times Graph:
-
-###Heap Write Times Graph:
-
-###Insertion Read Times Graph:
-
-###Insertion Write Times Graph:
-
-###Merge Read Times Graph:
-
-###Merge Write Times Graph:
-
-###Quick Read Times Graph:
-
-###Quick Write Times Graph
-
+###Bubble Sort Write Times Graph:
+![Bubble Sort Write Times](images/BubbleWriteTimes.png "Bubble Sort Write Times")
+###Number of Bubble Sort Reads Graph:
+![Bubble Sort Write Times](images/BubbleWriteTimes.png "Bubble Sort Write Times")
+###Heap Sort Read Times Graph:
+![Bubble Sort Write Times](images/BubbleWriteTimes.png "Bubble Sort Write Times")
+###Heap Sort Write Times Graph:
+![Bubble Sort Write Times](images/BubbleWriteTimes.png "Bubble Sort Write Times")
+###Insertion Sort Read Times Graph:
+![InsertionSort Read Times](images/Insertion ReadTimes.png "Insertion Sort Read Times")
+###Insertion Sort Write Times Graph:
+![Insertion Sort Write Times](images/InsertionWriteTimes.png "Insertion Sort Write Times")
+###Merge Sort Read Times Graph:
+![Merge Sort Read Times](images/MergeReadTimes.png "Merge Sort Read Times")
+###Merge Sort Write Times Graph:
+![Merge Sort Write Times](images/MergeWriteTimes.png "Merge Sort Write Times")
+###Quick Sort Read Times Graph:
+![Quick Sort Read Times](images/QuickReadTimes.png "Quick Sort Read Times")
+###Quick Sort Write Times Graph
+![Quick Sort Write Times](images/QuickWriteTimes.png "Quick Sort Write Times")
 ###Selection Sort Read Times Graph:
-
+![Selection Sort Read Times](images/SelectionReadTimes.png "Selection Sort Read Times")
 ###Selection Sort Write Times Graph:
+![Selection Sort Write Times](images/SelectionWriteTimes.png "Selection Sort Write Times")
