@@ -7,13 +7,13 @@
 ###Bubble Sort Write Times Graph:
 ![Bubble Sort Write Times](images/BubbleWriteTimes.png "Bubble Sort Write Times")
 ###Number of Bubble Sort Reads Graph:
-![Bubble Sort Write Times](images/BubbleWriteTimes.png "Bubble Sort Write Times")
+![Number of Bubble Sort Reads](images/NumberBubbleReads.png "Number of Bubble Sort Reads")
 ###Heap Sort Read Times Graph:
-![Bubble Sort Write Times](images/BubbleWriteTimes.png "Bubble Sort Write Times")
+![Heap Sort Read Times](images/HeapReadTimes.png "Heap Sort Read Times")
 ###Heap Sort Write Times Graph:
-![Bubble Sort Write Times](images/BubbleWriteTimes.png "Bubble Sort Write Times")
+![Heap Sort Write Times](images/HeapWriteTimes.png "Heap Sort Write Times")
 ###Insertion Sort Read Times Graph:
-![InsertionSort Read Times](images/Insertion ReadTimes.png "Insertion Sort Read Times")
+![InsertionSort Read Times](images/InsertionReadTimes.png "Insertion Sort Read Times")
 ###Insertion Sort Write Times Graph:
 ![Insertion Sort Write Times](images/InsertionWriteTimes.png "Insertion Sort Write Times")
 ###Merge Sort Read Times Graph:
