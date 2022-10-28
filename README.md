@@ -1,4 +1,4 @@
-#Module 2 Applied Project: Randomization
+#Module 3 Applied Project: Data Structure Graphs
 ###Authored by: Gabe Atkins, Matt Thomas and Josh Winter
 ##Description:
 This program uses the sorting project from Cs-124. This project records the read and write times of 6 different sorting methods. The six different sorting methods uses are bubble
