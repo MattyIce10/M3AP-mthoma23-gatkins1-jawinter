@@ -14,7 +14,7 @@ Bubble sort is more efficient at writing.
 Heap sort is more efficient at reading.
 Insertion sort is more efficient at writing.
 Merge sort is equally efficient at both reading and writing.
-Quick sort is more efficient at writing..
+Quick sort is more efficient at writing.
 and finally, selection sort is more efficient at writing.
 Bubble sort is by far the worst method, having by far the highest time for both reading and writing. Merge sort is overall the best method because of its tied outputs. The lowest
 write time was selection sort by far and the lowest read time was heap sort.
