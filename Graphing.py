@@ -5,6 +5,7 @@ import subprocess
 from subprocess import Popen, PIPE, check_output
 import time
 
+# This is based on Lisa's code from the SpeedTest project
 
 for size in range(100, 1001, 100):
 	times = []
